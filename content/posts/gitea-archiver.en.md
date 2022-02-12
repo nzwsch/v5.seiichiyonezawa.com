@@ -6,6 +6,8 @@ description: "Script to transfer Gitea repositories to another account"
 slug: "gitea-archiver"
 ---
 
+[{{< icon "github" >}} gitea-archiver](https://github.com/nzwsch/gitea-archiver)
+
 There are many Git repositories being created every day to try out certain tutorials or to create prototypes of some kind. I used to push my code to a private Gitea to reuse the code in those repositories.
 
 However, the project names often overlap, and the ad hoc repository names are scattered and inconsistent. For example, one day I might be pushing under the name `purplerain-2`, and another day it might be `purplerain-210212`, or `purplerain-0212`.
