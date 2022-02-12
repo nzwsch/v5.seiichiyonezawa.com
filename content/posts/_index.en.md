@@ -11,5 +11,3 @@ cascade:
 {{< lead >}}
 Simple, yet powerful. Learn how to use Congo and its features.
 {{< /lead >}}
-
----

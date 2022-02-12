@@ -8,7 +8,7 @@
 colorScheme = "fire"
 defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = true
-showAppearanceSwitcher = false
+showAppearanceSwitcher = true
 
 enableSearch = false
 enableCodeCopy = false
@@ -19,13 +19,13 @@ showScrollToTop = true
 
 [homepage]
   layout = "page" # valid options: page, profile, custom
-  showRecent = false
+  showRecent = true
 
 [article]
   showDate = true
   showDateUpdated = false
   showAuthor = true
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
   # editURL = "https://github.com/username/repo/"
@@ -34,15 +34,15 @@ showScrollToTop = true
   showPagination = true
   invertPagination = false
   showReadingTime = true
-  showTableOfContents = false
+  showTableOfContents = true
   showTaxonomies = false
   showWordCount = false
   # sharingLinks = ["facebook", "twitter", "pinterest", "reddit", "linkedin", "email"]
 
 [list]
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showSummary = false
-  showTableOfContents = false
+  showTableOfContents = true
   groupByYear = true
 
 [sitemap]

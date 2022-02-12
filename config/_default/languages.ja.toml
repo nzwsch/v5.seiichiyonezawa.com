@@ -1,6 +1,6 @@
 languageCode = "ja"
 languageName = "Japanese"
-displayName = "日本語"
+displayName = ":flag_jp:"
 isoCode = "ja"
 weight = 2
 rtl = false
