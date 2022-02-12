@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-description: "Learn how to use Congo and its features."
+description: "List of posts."
 
 cascade:
   showDate: true
@@ -9,5 +9,5 @@ cascade:
 ---
 
 {{< lead >}}
-Simple, yet powerful. Learn how to use Congo and its features.
+List of posts.
 {{< /lead >}}
