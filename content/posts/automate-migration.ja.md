@@ -1,17 +1,12 @@
 ---
-title: "Rails: デプロイ後に自動でmigrateする"
-description: RailsもDockerでデプロイを行うようになってからは何かと頭を抱えることも多いです。CI経由でデプロイした後に手動で`rake db:migrate`を実行しなければならず面倒です。何かと後回しにしていましたが、その都度生産性が落ちてしまうので調べてみました。
+title: "デプロイ後に自動でmigrateする"
 date: 2021-01-09
-draft: false
-tags:
-  - rails
-  - docker
-layout: layouts/post.njk
+draft: true
+description: "DockerのRailsを起動したあとに自動でデプロイをする方法"
+tags: ["rails", "docker"]
 ---
 
 RailsもDockerでデプロイを行うようになってからは何かと頭を抱えることも多いです。CI経由でデプロイした後に手動で`rake db:migrate`を実行しなければならず面倒です。何かと後回しにしていましたが、その都度生産性が落ちてしまうので調べてみました。
-
-<!--more-->
 
 Railsの起動時に`rails db:migrate`を行ってから`rails server`を実行するようにしたいです。まず最初にDockerfileにはこのように記述しました:
 
@@ -22,7 +17,7 @@ Railsの起動時に`rails db:migrate`を行ってから`rails server`を実行�
 
 **変更前 (`["rails", "s", "-b", "0.0.0.0"]`)**:
 
-```text
+```
 app_1  | => Booting Puma
 app_1  | => Rails 6.1.0 application starting in development
 app_1  | => Run `bin/rails server --help` for more startup options
@@ -38,7 +33,7 @@ app_1  | Use Ctrl-C to stop
 
 **変更後 (`rails db:migrate && rails server -b 0.0.0.0`):**
 
-```text
+```
 app_1  | => Booting Puma
 app_1  | => Rails 6.1.0 application starting in development
 app_1  | => Run `bin/rails server --help` for more startup options

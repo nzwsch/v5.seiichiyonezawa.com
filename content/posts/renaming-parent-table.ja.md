@@ -2,7 +2,7 @@
 title: "Rails: 既存の親テーブルをリネームするとき"
 description: 2021年は新しいことに挑戦しようとまずはブログをHugoに乗り換えてみました。過去の投稿はこのドメインには持ってこずにリンクのアーカイブとして残しておく予定なので今後はここで発信していけたらなと思っています。
 date: 2021-01-09
-draft: false
+draft: true
 tags:
   - rails
 layout: layouts/post.njk
