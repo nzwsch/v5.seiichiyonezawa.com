@@ -25,7 +25,7 @@ showScrollToTop = true
   showDate = true
   showDateUpdated = false
   showAuthor = true
-  showBreadcrumbs = true
+  showBreadcrumbs = false
   showDraftLabel = true
   showEdit = false
   # editURL = "https://github.com/username/repo/"
@@ -40,7 +40,7 @@ showScrollToTop = true
   # sharingLinks = ["facebook", "twitter", "pinterest", "reddit", "linkedin", "email"]
 
 [list]
-  showBreadcrumbs = true
+  showBreadcrumbs = false
   showSummary = false
   showTableOfContents = true
   groupByYear = true
